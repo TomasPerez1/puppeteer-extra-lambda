@@ -59,7 +59,8 @@ export const handler: Handler = async (
   }
 };
 
-// Test - npx ts-node index.ts
+// Test - npx ts-node index.ts jeje
+
 (async () => {
   try {
     const event: ExampleEvent = {};

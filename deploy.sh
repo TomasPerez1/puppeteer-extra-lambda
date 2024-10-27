@@ -14,3 +14,4 @@ docker tag property-scraper:latest 156041417839.dkr.ecr.us-east-1.amazonaws.com/
 
 echo "command - docker push 156041417839.dkr.ecr.us-east-1.amazonaws.com/property-scraper:latest"
 docker push 156041417839.dkr.ecr.us-east-1.amazonaws.com/property-scraper:latest
+
