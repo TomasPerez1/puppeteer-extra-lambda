@@ -3,7 +3,8 @@ env:
   variables:
     REGION: us-east-1
     VERSION: "1"
-
+    AWS_REGION: us-east-1
+    AWS_ACCOUNT_ID: 156041417839
 phases:
   install:
     on-failure: ABORT
