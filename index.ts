@@ -61,12 +61,12 @@ export const handler: Handler = async (
 
 // Test - npx ts-node index.ts jeje
 
-(async () => {
-  try {
-    const event: ExampleEvent = {};
-    //@ts-ignore
-    await handler(event, {}, () => {});
-  } catch (e) {
-    console.log("Error in Lambda Handler:", e);
-  }
-})();
+// (async () => {
+//   try {
+//     const event: ExampleEvent = {};
+//     //@ts-ignore
+//     await handler(event, {}, () => {});
+//   } catch (e) {
+//     console.log("Error in Lambda Handler:", e);
+//   }
+// })();
